@@ -3,24 +3,32 @@ html, body {
     height: 100%;
 }
 
-nav {
-    display: flex;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-#about {
-    align-self: flex-start;
+li {
+    float: left;
 }
 
-#images {
-    align-self: flex-end;
+li a {
+    display: block;
+    padding: 8px;
+}
+
+.nav-2 {
+    float: right;
 }
 
 main {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30vh;
+    top: 80px;
 }
 
 img {
