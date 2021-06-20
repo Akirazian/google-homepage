@@ -1,6 +1,16 @@
 html, body {
     margin: 0;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #222222;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #222222;
+    text-decoration: none;
 }
 
 ul {
@@ -9,7 +19,7 @@ ul {
     padding: 0;
 }
 
-li {
+.nav-1, .footer-1  {
     float: left;
 }
 
@@ -18,8 +28,14 @@ li a {
     padding: 8px;
 }
 
-.nav-2 {
+.nav-2, .footer-2 {
     float: right;
+}
+
+#carbon {
+    position: relative;
+    right: 50px;
+
 }
 
 main {
@@ -39,6 +55,7 @@ img {
 #logo {
     margin-bottom: 20px;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -48,3 +65,13 @@ form {
 input {
     margin-bottom: 20px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
