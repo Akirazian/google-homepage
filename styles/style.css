@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -25,17 +29,11 @@ ul {
 
 li a {
     display: block;
-    padding: 8px;
+    padding: 20px;
 }
 
 .nav-2, .footer-2 {
     float: right;
-}
-
-#carbon {
-    position: relative;
-    right: 50px;
-
 }
 
 main {
@@ -45,6 +43,7 @@ main {
     justify-content: center;
     align-items: center;
     top: 80px;
+    left: 40px;
 }
 
 img {
@@ -64,10 +63,28 @@ form {
 
 input {
     margin-bottom: 20px;
+    width: 30em;
+    height: 30px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#submit {
+    margin-right: 10px;
 }
 
 footer {
     display: flex;
+    background-color: rgb(204, 204, 204);
     justify-content: space-between;
     position: fixed;
     left: 0;
@@ -75,3 +92,8 @@ footer {
     width: 100%;
 }
 
+#carbon {
+    position: relative;
+    right: 55px;
+    top: 19px;
+}
