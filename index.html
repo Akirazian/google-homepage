@@ -4,6 +4,8 @@
   <title>Google</title>
   <meta name="description" content="A recreation of Google's homepage">
   <meta name="author" content="Alec Kirazian">
+  <link rel="icon" href="images/favicon" type="image/png" sizes="16x16">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">  
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
@@ -13,19 +15,20 @@
     <li class='nav-1'><a class='nav-link' href="#">About</a></li>
     <li class='nav-1'><a class='nav-link' href="#">Store</a></li>
     <li class='nav-2'><a class="nav-link" href="#">Sign In</a></li>
-    <li class='nav-2'><a class='nav-link' href="#">Gmail</a></li>
     <li class='nav-2'><a class='nav-link' href='#'>Images</a></li>
+    <li class='nav-2'><a class='nav-link' href="#">Gmail</a></li>
   </ul>
 
   <main id='main'>
     <img id='logo' src="images/googlelogo" alt='The Google logo'>
     <form id='search' name='search'>
       <div class="input-box">
+        <span class="material-icons">search</span>
         <input id='search-text' type="text">
       </div>
       <div class='buttons'>
         <button type="submit" id='submit'>Google Search</button>
-        <button id='lucky'> I'm feeling lucky!</button>
+        <button id='lucky'> I'm Feeling lucky!</button>
       </div>
     </form>
   </main>
@@ -36,8 +39,8 @@
       <li class='footer-1'><a class='footer-link' href='#'>How Search works</a></li>
     </ul>
     <div id='carbon'>
-      <img id='carbon-img' src="images/carbon.png" alt="A small green leaf">
-      <a class="footer-link" href="#">Carbon neutral since 2007</a>
+      <a class="footer-link" href="#">
+      <img id='carbon-img' src="images/carbon.png" alt="A small green leaf"> Carbon neutral since 2007</a>
     </div>
     <ul>
       <li class='footer-2'><a class='footer-link' href='#'>Settings</a></li>
