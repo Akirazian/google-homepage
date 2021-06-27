@@ -67,18 +67,25 @@ form {
 }
 
 .input-box {
+    display: flex;
+    height: 35px;
+    align-items: center;
     text-align: center;
     padding: 5px 15px 5px 15px;
     border: 1px solid #d4d4d4;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-bottom: 20px;
     width: 40em;
 }
 
+.material-icons.grey { color: #9aa0a6; }
+.material-icons.md-20 { font-size: 20px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
 input {
-    
     width: 90%;
-    height: 30px;
     border: none;
 }
 
@@ -97,7 +104,7 @@ button {
     border: 1px solid #f8f9fa00;
     padding: 10px 15px 10px 15px;
     background-color: #F8F9FA;
-    color: #303030
+    color: #4c4c4c
 }
 
 button:hover {
