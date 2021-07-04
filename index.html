@@ -14,17 +14,19 @@
   <ul class='nav-main'>
     <li class='nav-1'><a class='nav-link' href="#">About</a></li>
     <li class='nav-1'><a class='nav-link' href="#">Store</a></li>
-    <li class='nav-2'><a class="nav-link" href="#">Sign In</a></li>
+    <li class='nav-2'><a id="sign-in" href="#">Sign in</a></li>
+    <li class='nav-2'><a class="material-icons md-24" id='apps' href="#">apps</a></li>
     <li class='nav-2'><a class='nav-link' href='#'>Images</a></li>
     <li class='nav-2'><a class='nav-link' href="#">Gmail</a></li>
   </ul>
 
   <main id='main'>
     <img id='logo' src="images/googlelogo" alt='The Google logo'>
-    <form id='search' name='search' action="https://www.google.com/search">
+    <form id='search' name='search' method="GET" action="https://www.google.com/search">
       <div class="input-box">
         <span class="material-icons grey md-20">search</span>
         <input id='search-text' type="text">
+        <img id="voice" src="images/voice.png" alt="Button to activate voice-to-text search">
       </div>
       <div class='buttons'>
         <button type="submit" id='submit'>Google Search</button>

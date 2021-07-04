@@ -16,8 +16,11 @@ a {
 .footer-link {
     color: #70757a;
 }
+.footer-link:hover {
+    text-decoration: underline;
+}
 
-a:hover {
+.nav-link:hover {
     text-decoration: underline;
 }
 
@@ -41,14 +44,41 @@ li a {
     float: right;
 }
 
+#apps {
+    position: relative;
+    color: #3f3f3f;
+    bottom: 3px;
+    margin-right: 0px;
+}
+
+#apps:hover {
+    border: 0px solid #F2F2F2;
+    border-radius: 40px;
+    background-color: #F2F2F2;
+}
+
+#sign-in {
+    background-color: #2B7DE9;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    width: 72px;
+}
+
+#sign-in:hover {
+    background-color: #3e8bf0;
+}
+
 main {
+    max-height: 100%;
+    width: auto;
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 80px;
-    left: 40px;
+    top: 120px;
+    left: 100px;
 }
 
 img {
@@ -75,7 +105,11 @@ form {
     border: 1px solid #d4d4d4;
     border-radius: 30px;
     margin-bottom: 20px;
-    width: 40em;
+    width: 38em;
+}
+
+.input-box:hover {
+    box-shadow: 0 1px 7px rgb(190, 190, 190);
 }
 
 .material-icons.grey { color: #9aa0a6; }
@@ -87,10 +121,17 @@ form {
 input {
     width: 90%;
     border: none;
+    font-size: 16px;
+    padding-left: 10px;
 }
 
 input:focus {
     outline: none;
+}
+
+#voice {
+    position: relative;
+    left: 10px;
 }
 
 .buttons {
