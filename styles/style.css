@@ -31,14 +31,15 @@ ul {
    float: left;
  }
 
+ .nav-2 {
+    float: right;
+    font-size: 13px !important
+}
+
 li a {
     display: block;
     padding: 10px;
     margin: 10px;
-}
-
-.nav-2 {
-    float: right;
 }
 
 #apps {
@@ -74,7 +75,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 180px;
+    top: 240px;
     left: 100px;
 }
 
